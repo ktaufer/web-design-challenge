@@ -1,0 +1,144 @@
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    color: teal;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: teal;
+}
+footer{
+    border-top: teal;
+    border-width: 10px;
+    background-color: darkgray;
+
+}
+body{
+    background-color: silver;
+}
+.table-striped{
+    background-color: thistle;
+}
+.navbar{
+    background-color: white;
+    height: 70px;
+
+}
+p{
+    word-wrap: normal;
+}
+.box-set{
+    background-color: white;
+    padding: 40px;
+    width: 800px;
+    align-content: center;
+    position: fixed;
+    top: 15%;
+    left: 10%;
+}
+/*visualizations boxes*/
+#visualizations{
+    width: 450px;
+    position: fixed;
+    top: 15%;
+    right: 15%;
+}
+/*box containing table*/
+#data-box{
+    position: fixed;
+    width: 1200px;
+    top: 15%;
+    left: 5%;
+}
+
+/*navbar latitude link*/
+#latitude{
+    background-color: teal;
+    color: white;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    position: absolute;
+}
+
+/*navbar plot button*/
+#dropdownMenuLink{
+    position: fixed;
+    right: 200px;
+    top: 20px;
+    color: darkgrey;
+    background-color: white;
+    border: hidden;
+}
+.dropdown-menu{
+    position: fixed;
+    right: 200px;
+    top: 65px;
+    left: 810px;
+}
+
+/*navbar comparisons and data links*/
+#nav-links-comparisons{
+    color: darkgrey;
+    position: fixed;
+    right: 100px;
+    top: 25px;
+}
+#nav-links-data{
+    color: darkgrey;
+    position: fixed;
+    top: 25px;
+    right: 50px;
+}
+
+/*images on each plot page*/
+.individual-image{
+    width: 70%;
+}
+
+/*example image on landing page*/
+#landing-image{
+    width: 25%;
+    position: relative;
+}
+
+/*visualizations links/images*/
+#vis-temp{
+    width: 25%;
+    position:absolute;
+
+}
+#vis-humid{
+    width: 25%;
+    position:absolute;
+}
+#vis-clouds{
+    width: 25%;
+    position:absolute;
+}
+#vis-wind{
+    width: 25%;
+    position:absolute;
+}
+
+/*comparisons links/images*/
+.compare-temp{}
+.compare-humid{}
+.compare-clouds{}
+.compare-wind{}
+
+/*title over comparisons images*/
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: teal;
+}
+
+/*subtitle in comparisons*/
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: teal;
+}
+
+
