@@ -27,25 +27,35 @@
         <a id = 'nav-links-data' href="data.html">Data</a>
     </nav>
     <div class = 'container'>
-        <div class = row>
-            <h1>Latitude and the Weather</h1>
-            <hr>
-            <h4>Click on a plot for analysis</h4>
-            <div class="col-sm-12 col-md-6">
-                <a id = 'compare-clouds' href="clouds.html" >
-                    <img src="Resources/assets/images/Clouds.png" alt="cloudiness">
-                </a>
-                <a id = 'compare-humid' href="humidity.html">
-                    <img src="Resources/assets/images/Humidity.png" alt="humidity">
-                </a>
+        <div id = 'compare' class = 'box-set'>
+            <div class = 'row'>
+                <h1>Latitude and the Weather</h1>
             </div>
-            <div class="col-sm-12 col-md-6">
-                <a id = 'compare-temp' href="temp.html">
-                    <img src="Resources/assets/images/Temp.png" alt="temperature">
-                </a>
-                <a id = 'compare-wind' href="wind.html">
-                    <img src="Resources/assets/images/Wind.png" alt="wind">
-                </a>
+            <div class = 'row'>
+                <h4>Click on a plot for analysis</h4>
+            </div>
+            <div class = 'row'>
+                <div class="col-sm-12 col-md-6">
+                    <a href="clouds.html" >
+                        <img id = 'compare-clouds' src="Resources/assets/images/Clouds.png" alt="cloudiness">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <a href="temp.html">
+                        <img id = 'compare-temp' src="Resources/assets/images/Temp.png" alt="temperature">
+                    </a>
+                </div>    
+            </div>
+            <div class = 'row'>
+                <div class="col-sm-12 col-md-6">
+                    <a href="humidity.html">
+                        <img id = 'compare-humid' src="Resources/assets/images/Humidity.png" alt="humidity">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <a href="wind.html">
+                        <img id = 'compare-wind' src="Resources/assets/images/Wind.png" alt="wind">
+                    </a>
+                </div>    
             </div>
         </div>
     </div>

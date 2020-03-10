@@ -6,6 +6,8 @@ h1{
 h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: teal;
+    margin-left: 30px;
+    margin-top: 40px;
 }
 footer{
     border-top: teal;
@@ -17,38 +19,39 @@ body{
     background-color: silver;
 }
 .table-striped{
-    background-color: thistle;
+    background-color: blanchedalmond;
 }
 .navbar{
     background-color: white;
     height: 70px;
 
 }
-p{
-    word-wrap: normal;
+.main-box-set{
+    background-color: white;
+    padding: 20px;
+    width: 700px;
+    height: 450px;
+    align-content: center;
+    margin-left: -80px;
+    margin-top: 40px;
 }
 .box-set{
     background-color: white;
-    padding: 40px;
-    width: 800px;
-    align-content: center;
-    position: fixed;
-    top: 15%;
-    left: 10%;
+    margin-top: 40px;
 }
+
 /*visualizations boxes*/
 #visualizations{
-    width: 450px;
-    position: fixed;
-    top: 15%;
-    right: 15%;
+    width: 550px;
+    height: 480px;
+    margin-left: -100px;
+    margin-top: 40px;
 }
 /*box containing table*/
 #data-box{
-    position: fixed;
+    position: relative;
     width: 1200px;
-    top: 15%;
-    left: 5%;
+    margin-left: 0px;
 }
 
 /*navbar latitude link*/
@@ -95,39 +98,68 @@ p{
 
 /*images on each plot page*/
 .individual-image{
-    width: 70%;
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin: 10px;
 }
 
 /*example image on landing page*/
 #landing-image{
-    width: 25%;
-    position: relative;
+    width: 50%;
+    float: left;
+    margin: 10px;
 }
 
 /*visualizations links/images*/
 #vis-temp{
-    width: 25%;
-    position:absolute;
-
+    width: 250px;
+    height: 200px;
+    margin-top: 0px;
+    margin-right: 0px;
+    
 }
 #vis-humid{
-    width: 25%;
-    position:absolute;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 #vis-clouds{
-    width: 25%;
-    position:absolute;
+    width: 250px;
+    height: 200px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 #vis-wind{
-    width: 25%;
-    position:absolute;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 0px;
+    margin-right: 0px;
 }
 
-/*comparisons links/images*/
-.compare-temp{}
-.compare-humid{}
-.compare-clouds{}
-.compare-wind{}
+/*comparisons links/images/box*/
+#compare{
+    width: 1200px;
+    margin-left: 0px;
+}
+
+#compare-temp{
+    width: 550px;
+    height: 450px;
+}
+#compare-humid{
+    width: 550px;
+    height: 450px;
+}
+#compare-clouds{
+    width: 550px;
+    height: 450px;
+}
+#compare-wind{
+    width: 550px;
+    height: 450px;
+}
 
 /*title over comparisons images*/
 h3{
@@ -139,6 +171,7 @@ h3{
 h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: teal;
+    margin-left: 30px;
 }
 
 
