@@ -30,7 +30,7 @@ body{
     background-color: white;
     padding: 20px;
     width: 700px;
-    height: 450px;
+    height: 500px;
     align-content: center;
     margin-left: -80px;
     margin-top: 40px;
@@ -51,6 +51,7 @@ body{
 #data-box{
     position: relative;
     width: 1200px;
+    padding: 10px;
     margin-left: 0px;
 }
 
